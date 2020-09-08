@@ -669,7 +669,9 @@ Resources:
                   - iam:DetachRolePolicy
                   - iam:PutRolePolicy
                   - iam:PassRole
+                  - iam:CreateServiceLinkedRole
                   - iam:DeleteRolePolicy
+                  
                   - lambda:InvokeFunction
                 Resource: "*"
               - Sid: SageMakerDeployment
